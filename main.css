@@ -130,7 +130,6 @@ Blue = #13039b
     color: #000;
 }
 
-
 /* skills
 -------------------------------------------------- */
 
@@ -160,6 +159,47 @@ Blue = #13039b
     font-size: 50px;
     font-family: 'Josefin Sans', sans-serif;
     padding-top: 25px;
+}
+
+/* GITHUB BUTTON
+---------------------------------------------- */
+
+.projects {
+    margin: 160px;
+}
+
+.git-header, .cp-header {
+    text-align: center;
+    font-size: 28px;
+}
+
+.git-text, .cp-text {
+    font-size: 18px;
+    text-align: center;
+}
+
+.git-btn, .cp-btn {
+    margin-top: 50px;
+    padding: 20px 70px;
+    background-color: #13039b;
+    border-color: #13039b;
+	border-radius: 15px;
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+	width: 15em;
+}
+
+.cp-btn:hover, .git-btn:hover {
+    background-color: #9932cc;
+    border-color: #9932cc;
+}
+
+@media screen and (max-width: 480px)  {
+	.projects-sm.hidden-md.hidden-lg {
+		margin: 45px;
+	}
+	
 }
 
 
