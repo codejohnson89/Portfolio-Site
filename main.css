@@ -1,6 +1,7 @@
 /*
 *Details of the styling on this website
 *Color scheme:
+Below
 
 Purple = #9932cc
 Blue = #13039b
@@ -16,6 +17,11 @@ Blue = #13039b
     margin-bottom: 0;
 }
 
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
 
 /* CUSTOMIZED CAROUSEL
 -------------------------------------------------- */
@@ -24,7 +30,7 @@ Blue = #13039b
 /* Carousel base class */
 
 .carousel {
-    height: 65em;
+    height: 65.5em;
     margin-bottom: 30px;
 }
 
@@ -85,10 +91,9 @@ Blue = #13039b
 }
 
 .aboutMe {
+    
     padding-top: 135px;
-    /* Vertically center images part 1: add padding above and below text. */
     overflow: hidden;
-    /* Vertically center images part 2: clear their floats. */
 }
 
 .aboutMe-image {
@@ -117,6 +122,7 @@ Blue = #13039b
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     color: #000;
+    visibility: hidden;
 }
 
 .lead {
@@ -130,8 +136,7 @@ Blue = #13039b
 -------------------------------------------------- */
 
 .skills {
-    margin: 250px auto;
-    padding: 250px auto;
+    margin: 100px auto;
     background-color: #13039b;
 }
 
@@ -167,26 +172,44 @@ html {
     min-height: 100%;
 }
 
-body {
-    /* Margin bottom by footer height */
-    margin-bottom: 160px;
-}
+
 
 .footer,
 footer {
-    position: absolute;
+    
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 160px;
+    height: 400px;
     background: #444;
     color: white;
     text-shadow: 1px 1px 1px black;
     padding: 40px 0;
+    
 }
 
+.contact-email {
+    color: #fff;
+}
+
+.footer-contact {
+    font-size: 24px;
+}
+
+.contact-i {
+    margin: 5px;
+    color: #fff;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-h2 {}
+
+
