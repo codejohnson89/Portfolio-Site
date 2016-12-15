@@ -1,7 +1,6 @@
 /*
 *Details of the styling on this website
 *Color scheme:
-Below
 
 Purple = #9932cc
 Blue = #13039b
@@ -30,7 +29,7 @@ Blue = #13039b
 /* Carousel base class */
 
 .carousel {
-    height: 65.5em;
+    height: 65em;
     margin-bottom: 30px;
 }
 
