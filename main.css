@@ -21,6 +21,34 @@ Blue = #13039b
     border-color: transparent;
 }
 
+.fill-screen {
+    background-size: cover;
+    background-position: center;
+}
+.title-row {
+    position: relative;
+    min-height: 300px;
+}
+.title-image {
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+ .fa-arrow-circle-down {
+    font-size: 70px;
+    color: #fff;
+}
+
+.down-button {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
 
 /* CUSTOMIZED CAROUSEL
 -------------------------------------------------- */
@@ -90,7 +118,6 @@ Blue = #13039b
 }
 
 .aboutMe {
-    
     padding-top: 135px;
     overflow: hidden;
 }
@@ -130,6 +157,7 @@ Blue = #13039b
     color: #000;
 }
 
+
 /* skills
 -------------------------------------------------- */
 
@@ -161,6 +189,11 @@ Blue = #13039b
     padding-top: 25px;
 }
 
+.card {
+    height: 15rem;
+}
+
+
 /* GITHUB BUTTON
 ---------------------------------------------- */
 
@@ -168,38 +201,41 @@ Blue = #13039b
     margin: 160px;
 }
 
-.git-header, .cp-header {
+.git-header,
+.cp-header {
     text-align: center;
     font-size: 28px;
 }
 
-.git-text, .cp-text {
+.git-text,
+.cp-text {
     font-size: 18px;
     text-align: center;
 }
 
-.git-btn, .cp-btn {
+.git-btn,
+.cp-btn {
     margin-top: 50px;
     padding: 20px 70px;
     background-color: #13039b;
     border-color: #13039b;
-	border-radius: 15px;
+    border-radius: 15px;
     font-size: 36px;
     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
-	width: 10em;
+    width: 10em;
 }
 
-.cp-btn:hover, .git-btn:hover {
+.cp-btn:hover,
+.git-btn:hover {
     background-color: #9932cc;
     border-color: #9932cc;
 }
 
-@media screen and (max-width: 480px)  {
-	.projects-sm.hidden-md.hidden-lg {
-		margin: 45px;
-	}
-	
+@media screen and (max-width: 480px) {
+    .projects-sm.hidden-md.hidden-lg {
+        margin: 45px;
+    }
 }
 
 
@@ -211,11 +247,8 @@ html {
     min-height: 100%;
 }
 
-
-
 .footer,
 footer {
-    
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
@@ -224,7 +257,6 @@ footer {
     color: white;
     text-shadow: 1px 1px 1px black;
     padding: 40px 0;
-    
 }
 
 .contact-email {
@@ -247,8 +279,6 @@ hr {
     border-top: 1px solid #eee;
 }
 
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-
-
-

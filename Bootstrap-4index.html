@@ -2,85 +2,72 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-   
-    <script src="https://use.fontawesome.com/3d657aa1fb.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+
     <link rel="stylesheet" href="main.css">
+    <script src="https://use.fontawesome.com/3d657aa1fb.js"></script>
 
-
-    <title>Micah Johnson Portfolio Site</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="75">
-    <nav class="navbar navbar-inverse navbar-fixed-top visible-md visible-lg">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Micah J Johnson</a>
-            </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#section1">About Me</a></li>
-                <li><a href="#section2">Skills</a></li>
-                <li><a href="#section3">Projects</a></li>
-            </ul>
-        </div>
-    </nav>
-    
-    <!----------------------------------------------------------------------------------------------------------------------------This is the beginning section of the header image---------->
-  
 
-    <div class="container-fluid">
-        <section class="row title-row">
-            <div class="fill-screen" style="background-image: url('imagess/space.png');">
-                <img class="title-image" src="imagess/logo-white.png" />
-                <div class="down-button">
-                    <a class="btn animated infinite bounce" href="#section1">
-                        <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
-                    </a>               
-            </div>
-            </section>
-           
-        </div>
-    
+      
+   
     <!----------------------------------------------------------------------------------------------------------------------------This is End section of the header image---------->
     <div id="section1" class="about-me">
         <h2 class="aboutMe-heading">About Me</h2>
-        <section class="row">
+        <div class="row">
             <div class="col-md-6">
                 <img class="img-responsive aboutMe-image img-circle pull-right" src="http://www.johnsonm.info/wp-content/uploads/2016/11/profile-pic-2.png" />
             </div>
             <div class="col-md-6">
                 <p class="lead">Hi and welcome to my personal website. My name is Micah and I am an inspired future Full Stack web developer that is from Oklahoma City. I first started out doing web design in the spring of 2015 taking online classes at <a class="school" href="http://www.codeschool.com">Code School</a> and <a class="school" href="http://www.lynda.com">Lynda</a>. From there, I started practicing the skills that I learned at the current job I am at making small changes like links and text color(I really thought I was big time lol), but then making bigger and much more complex changes like fixing navigation dropdowns and how they appear on mobile devices. This experience soon landed me my first full time job as a web designer at the current company I am at. Unfortunately it did not last that long because of cutbacks the company had to make, so I was placed back at my senior tech roll as I was before but still help the design team as an additional role.</p>
             </div>
-        </section>
-    </div>
-
-    <!-----------------This is the beginning section of the skills section---------->
-    <div id="section2" class="skills">
-        <h2 class="skills-heading">My Skills</h2>
-        <div class="container">
-            <section class="row">
-                <div class="col-md-4"><span class="glyphicon glyphicon-eye-open"></span>
-                    <h2>HTML5 &amp; CSS3</h2>
-                    <p>I enjoy using the latest versions of HTML and CSS, they your building a website much easier and appealing to the user.</p>
-                </div>
-                <div class="col-md-4"><span class="glyphicon glyphicon-phone"></span>
-                    <h2>Bootstrap</h2>
-                    <p>When it comes to Bootstrap, to me its the greatest thing to ever happen to me when I was introduced to it. It certainly helps with making mobile friendly websites.</p>
-                </div>
-                <div class="col-md-4"><span class="glyphicon glyphicon-usd"></span>
-                    <h2>jQuery</h2>
-                    <p>I love how it makes a website come to LIFE! It's easy and simple to use to modify a website and certainly a reason why I chose to use it in my projects as much as possible.</p>
-                </div>
-            </section>
         </div>
     </div>
-    <!----------------------------------------------------------------------------------------------------------------------------This is the End section of the skills section---------->
+    <div id="section2" class="skills">
+        <h2 class="skills-heading">My Skills</h2>
+        <div class="row">
+            <div class="container-fluid">
+                <div class="col-sm-3">
+                    <div class="card card-block text-xs-center" style="width: 18rem;">
+                        <h3 class="card-title">HTML &amp; CSS</h3>
+                        <p class="card-text">The basic foundation of web design. A lot of my work is still with HTML 4 standards but making the transtition to HTML and CSS3</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card card-block text-xs-center" style="width: 18rem;">
+                        <h3 class="card-title">Bootstrap</h3>
+                        <p class="card-text">Currently Bootstrap is my preferred CSS framework to use on all my projects that I create. All of my projects you see will include alot of its components.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card card-block text-xs-center" style="width: 18rem;">
+                        <h3 class="card-title">JavaScript</h3>
+                        <p class="card-text">My primary use of JavaScript is to use the jQuery library in some of my projects. I am still a novice but have experience using the language in general. </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card card-block text-xs-center" style="width: 18rem;">
+                        <h3 class="card-title">PHP &amp; SQL</h3>
+                        <p class="card-text">I do have experience with working with SQL with the current position I am at. Creating queries for the purpose of researching. Still learning both languages. </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="section3" class="projects hidden-sm hidden-xs">
-        <section class="row">
+        <div class="row">
             <div class="col-md-6">
                 <h3 class="git-header">Check Out My Github Projects!</h3>
                 <p class="git-text">You will see my current and past projects that I have worked on.</p>
@@ -100,12 +87,11 @@
                     </a>
                 </p>
             </div>
-        </section>
+        </div>
     </div>
-
     <footer>
         <div class="container">
-            <section class="row">
+            <div class="row">
                 <div class="col-md-6 col-xs-12">
                     <h3>Contact Me</h3>
                     <hr>
@@ -127,16 +113,16 @@
                     </p>
                 </div>
 
-            </section>
+            </div>
 
 
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="scrolling.js"></script>
 
-    
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
 </body>
 
 </html>
