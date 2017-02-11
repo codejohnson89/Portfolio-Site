@@ -22,6 +22,7 @@ Blue = #13039b
 }
 
 .fill-screen {
+    background-image: url('imagess/space.png');
     background-size: cover;
     background-position: center;
 }
@@ -29,13 +30,32 @@ Blue = #13039b
     position: relative;
     min-height: 300px;
 }
-.title-image {
+.title-text {
+    font-size: 75px;
+    font-family: 'Petit Formal Script', cursive;
+    color: #fff;
     position: absolute;
     padding: 20px;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.title-text-2 {
+    font-size: 21px;
+    font-family: 'Petit Formal Script', cursive;
+    color: #fff;
+    position: absolute;
+    padding: 20px;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+     animation-duration: 3s;
+    animation-delay: 1s;
 }
 
  .fa-arrow-circle-down {
