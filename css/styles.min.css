@@ -599,7 +599,8 @@ div#header {
 }
 
 div.features-clean {
-    background: url(/img/tools.png) fixed
+    background: url(/img/tools.png) fixed no-repeat;
+    background-size: cover;
 }
 
 h2.text-center,
