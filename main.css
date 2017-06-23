@@ -11,7 +11,9 @@ Blue = #13039b
 
 /* NAVBAR
 -------------------------------------------------- */
-
+#section1 {
+    opacity: 0;
+}
 .navbar {
     margin-bottom: 0;
 }
