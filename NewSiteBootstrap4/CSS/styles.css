@@ -1,0 +1,100 @@
+/*
+Notes for this bootstrap 4 design
+
+Arthur: Micah Johnson
+
+=======================================
+     colors
+------------------
+dark grayish-blue = #484f59
+light-bluish = #697b90
+=====================================
+*/
+
+.bg-header {
+    background: url(../img/header.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 65em;
+}
+
+.navbar {
+    background-color: transparent !important;
+    transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+}
+
+.show {
+    background-color: #333 !important;
+    height: 70px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.nav-item .nav-link {
+    font-size: 24px;
+    color: #fff !important;
+    margin: 0 15px;
+}
+
+.miniBio {
+    padding: 50px;
+    font-size: 18px;
+}
+
+.title {
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+#sectionOne {
+    padding: 100px;
+}
+
+#sectionTwo {
+    background-color: #697b90;
+    padding: 100px;
+}
+
+#circle {
+    width: 200px;
+    height: 200px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.skill {
+    display: inline-block;
+    margin: 2em;
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+    min-width: 250px;
+    background-color: #484f59;
+}
+
+.skill-heading {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.wrapper {
+    display: inline-block;
+}
+
+.round {
+    border-radius: 50%;
+}
