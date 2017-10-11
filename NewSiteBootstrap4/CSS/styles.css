@@ -91,10 +91,27 @@ h1 {
     text-align: center;
 }
 
+.skill:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+    background-color: #333;
+    color: #484f59;
+}
+
 .wrapper {
     display: inline-block;
 }
 
 .round {
     border-radius: 50%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.fa {
+    font-size: 84px;
+    margin: 50px;
+    color: #697b90;
 }

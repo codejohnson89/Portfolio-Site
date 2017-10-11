@@ -9,7 +9,17 @@ $(window).scroll(function() {
         $(".navbar").removeClass("show");
     }
 
-    $(document).scroll(function() {
-
-    })
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 1200) {
+            $("#skills").addClass("lightSpeedIn");
+            $("#skills").removeClass("hidden");
+        }
+    });
 });
+
+$(".fa").hover(function() {
+        $(this).addClass("bounce");
+    },
+    function() {
+        $(this).removeClass("bounce");
+    });
