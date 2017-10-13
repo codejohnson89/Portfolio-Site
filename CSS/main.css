@@ -1,16 +1,3 @@
-/*
-Notes for this bootstrap 4 design
-
-Arthur: Micah Johnson
-
-=======================================
-     colors
-------------------
-dark grayish-blue = #484f59
-light-bluish = #697b90
-=====================================
-*/
-
 .bg-header {
     background: url(../img/header.jpg) no-repeat center fixed;
     background-size: cover;
