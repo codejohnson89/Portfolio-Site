@@ -70,7 +70,7 @@ h1 {
 }
 
 #sectionFour {
-    background-color: #9cc9f1;
+    background-color: #fff;
     padding: 50px;
 }
 
@@ -147,7 +147,7 @@ h1 {
 }
 
 .myWork {
-    max-width: 740px;
+    max-width: 100%;
 }
 
 .project-header {
