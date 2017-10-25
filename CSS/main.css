@@ -8,6 +8,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.row {
+    margin: 0px !important;
+}
+
 .navbar {
     background-color: transparent !important;
     transition: all .5s ease-in;
@@ -38,7 +42,6 @@ body {
 }
 
 .miniBio {
-    padding: 50px;
     font-size: 18px;
 }
 
@@ -56,7 +59,8 @@ h1 {
 
 #sectionTwo {
     background-color: #697b90;
-    padding: 100px;
+    background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 #sectionThree {

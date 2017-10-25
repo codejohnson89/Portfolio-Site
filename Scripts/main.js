@@ -29,9 +29,22 @@ $(window).scroll(function() {
 
 });
 
+function mobileResize() {
+    if (0 == 0) {
+        if ($(window).width() < 415) {
+            $("#mainImg").removeClass("bg-header");
+            console.log("1");
+        } else {
+            $("#mainImg").addClass("bg-header");
+            console.log("2");
+        }
+    }
+}
 $(".social .fa").hover(function() {
         $(this).addClass("bounce");
     },
     function() {
         $(this).removeClass("bounce");
     });
+
+mobileResize();
