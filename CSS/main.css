@@ -167,3 +167,7 @@ footer {
 footer .fa {
     font-size: 42px;
 }
+
+.navbar-toggler-icon {
+    display: none;
+}
