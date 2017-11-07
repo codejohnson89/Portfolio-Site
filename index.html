@@ -23,6 +23,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="CSS/main.css">
+    <style>
+        .navbar-light .navbar-toggler {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -73,7 +78,7 @@
         </section>
 
         <!--The right and left classes are used for the jquery to place the original classes back when the window is resized-->
-        <section id="sectionTwo">
+        <!-- <section id="sectionTwo">
             <h3 class="text-center">Check My Skills</h3>
             <div id="skills" class="row">
                 <div class="col-sm-12 col-lg-4 right text-right">
@@ -109,7 +114,7 @@
             </div>
 
 
-        </section>
+        </section> -->
 
         <div>
             <div class="row">
@@ -132,6 +137,11 @@
         </section>
         <section id="sectionFour">
             <h2 class="text-center project-header">A Few of My Projects</h2>
+            <p class="text-center">Here are just a few of my projects. Some are still a working progress but nonetheless avaiable to show case. If you would like to get a copy of my resume for yourself please click below for the available format.</p>
+            <div class="text-center">
+                <a class="btn btn-primary" onclick="resume()" href="Resume.docx">Download .DOCX</a>
+                <a class="btn btn-primary" onclick="resume()" href="Resume.pdf">Download .PDF</a>
+            </div>
             <div class="container myWork">
 
                 <div class="row">
@@ -175,7 +185,11 @@
     </main>
 
 
-
+    <script>
+        function resume() {
+            alert("My Resume is pretty watered down. This is only for recruiters needing a resume on file. Please visit my LinkedIn profile if wanting to see more info.");
+        }
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
