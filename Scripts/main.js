@@ -37,7 +37,7 @@
             $(this).removeClass("bounce");
         });
 
-    function load() {
+    const load = () => {
         $(window).ready(function() {
             if ($(window).width() < 992) {
                 $(".right").removeClass("text-right");
