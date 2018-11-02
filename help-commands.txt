@@ -1,0 +1,8 @@
+//THIS IS INSTALLS BABEL
+npm install --save-dev babel-cli
+
+//THIS INSTALLS THE PRESETS TO COMPIILE REACT CODE TO ES5
+npm babel-preset-react@6.24.1 babel-preset-env@1.5.2
+
+//THIS COMPILES THE CODE
+babel src/app.js --out-file=public/scripts/app.js --presets=env,react
