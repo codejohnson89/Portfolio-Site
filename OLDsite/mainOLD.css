@@ -12,7 +12,7 @@ Blue = #13039b
 /* NAVBAR
 -------------------------------------------------- */
 #section1 {
-    opacity: 0;
+    /* opacity: 0; */
 }
 .navbar {
     margin-bottom: 0;
@@ -24,9 +24,10 @@ Blue = #13039b
 }
 
 .fill-screen {
-    background-image: url('imagess/space.png');
+    background-image: url('img/desk.jpg');
     background-size: cover;
     background-position: center;
+    height: 100vh;
 }
 .title-row {
     position: relative;
